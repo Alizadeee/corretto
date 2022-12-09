@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0 4rem;
+}
+header{
+    padding: 20px;
+}
+.logo{
+    width: 10%;
+}
+.logo img{
+    width: 100%;
+}
+.nav{
+    width: 50%;
+    text-align: center;
+}
+.nav a{
+    margin: 0 15px;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative; 
+}
+.nav a span{
+    position: absolute;
+    top: -11px;
+    font-size: 10px;
+    right: -10px;
+    background-color: #00badb;
+    color: #fff;
+    border-radius: 30px;
+    padding: 2px 4px;
+}
+.icons{
+    width: 10%;
+}
+#brand{
+    padding: 6rem 0;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 100%;
+    vertical-align: bottom;
+    height: 100%;
+    transition: 0.4s;
+    object-fit: cover;
+}
+.left{
+    width: 49%;
+}
+.right{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+.left2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.left2 .box{
+    height: 48%;
+}
+.left2,.right2{
+    width: 48%;
+}
+.box{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.box a{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 111111111;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 12px 60px;
+    color: #252525;
+    border-radius: 5px;
+    transition: .4s;
+}
+.box a:hover{
+    background-color: #252525;
+    color: #fff;
+}
+.box:hover img{
+    transform: scale(1.2);
+}
+@media (max-width:576px) {
+    .all{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .mid{
+         width: 50%;
+    }
+    .right{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .left2,.right2{
+        width: 48%;
+    }
+}
+.trend{
+    margin-top: 40px;
+    
+}
+.clothes .box{
+    width: 25%;
+    margin-top: 20px;
+    
+}
+.clothes .box:hover .ikon{
+ display: block;
+ z-index: 1;
+}
+.clothes .box img{
+    width: 100%;
+    vertical-align: bottom;
+    transition: .5s;
+    
+
+}
+.clothes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ikon a{
+    background-color: #252525;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 13px 30px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.ikon i{
+    bottom: -100%;
+    left: 43%;
+    transform: translateX(-50%,-50%);
+    transition: .5s;
+}
+.ikon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.ikon a:hover i{
+    bottom: 20%;
+}
+.ikon a:hover span{
+    color: #252525;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .box{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    animation: alizadee 7s linear infinite;  
+    border: dashed 3px; 
+    border-radius: 50%; 
+}
+@keyframes alizadee{
+    0%{
+        background-color: red;
+        rotate: 0deg;
+    }
+    10%{
+        background-color: orangered;
+    }
+    20%{
+        background-color: orange;
+    }
+    30%{
+        background-color: yellow;
+    }
+    40%{
+        background-color: yellowgreen;
+    }
+    50%{
+        background-color: rgb(0, 255, 0);
+    }
+    60%{
+        background-color: aqua;
+    }
+    70%{
+        background-color: rgb(0, 140, 255);
+    }
+    80%{
+        background-color: blue;
+    }
+    90%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: rgb(255, 0, 115);
+        rotate: 360deg;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* }
+.box:hover{
+    background-color: #252525;
+}
+h1{
+    background-color: coral;
+    text-align: center;
+    margin-top: 50px;
+    transition: .6s;
+    border-radius: 30px;
+    padding: 15px;
+}
+h1:hover{
+    background-color: cornflowerblue;
+    color: white;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .box{
+    width: 25%;
+    position: relative;
+}
+.box-text{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 111111;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    transition: 0.4s;
+}
+.box:hover .box-text{
+    opacity: 1;
+    top: 50%;
+}
+.box img{
+    width: 100%;
+    vertical-align: bottom;
+    transition: 0.4s;
+} */
+/* .box:hover img{
+    filter: brightness(0.6);
+} */
+/* #first{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    transition: .4s;
+    position: relative;
+}
+#first .second{
+    width: 100px;
+    height: 100px;
+    background-color: #252525;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.photo{
+    width: 30%;
+    margin: 100px;
+    transition: 2s;
+}
+.photo:hover{
+    transform: rotate(3600deg);
+}
+.photo img{
+    
+    width: 100%;
+} */
